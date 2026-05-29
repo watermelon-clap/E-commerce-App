@@ -1,6 +1,13 @@
 DBMS used = MySQL.
 database name = ecom
 
+example of .env file:
+PORT = 8080
+DATABASE = ecom
+DB_USER = root
+DB_PASS = password
+SECRETKEY = 'ecom123#'
+
 #Tables
 
 CREATE TABLE `users` (
