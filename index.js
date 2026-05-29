@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
     res.send("Hello world!")
 })
 
-app.use('/', express.static('./public'))
+//app.use('/', express.static('./public'))
 app.use('/', require('./be/routes'))
 
 app.listen(process.env.PORT, () => {
